@@ -1,0 +1,40 @@
+header{
+   display:flex;
+   width:100%;
+   justify-content:space-between;
+   align-items: center;
+
+//    padding: 20px;
+   color:#000000;
+   z-index: 20;
+   position:absolute;
+
+   nav{
+       width:70%;
+    //    margin-top:0 auto;
+        // text-align: center;
+        
+        ul{
+            display:flex;
+            justify-content: flex-start;
+            font-size: 1.8rem;
+            // justify-content: space-between;
+            // display: inline-block;
+            align-items: center;
+            margin:0 auto;
+
+            li{
+                margin-right: 20px;
+                color:#707070;
+            }
+        }
+   }
+}
+.hd-logo{
+    width:306px;
+    height:38px;
+    font-family: Roboto Mono for Powerline;
+    font-size:3.8rem;
+    margin:68px 77px;
+    margin-right: 0;
+}

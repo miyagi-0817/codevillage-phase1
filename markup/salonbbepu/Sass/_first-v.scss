@@ -1,0 +1,48 @@
+#first-v{
+    background-color: red;
+    background-image: URL("../img/blond.png");
+	background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width:100%;
+    position:relative;
+    object-fit: cover;
+    background-size:cover;
+    background-position: center;
+	background-size:75% ;
+
+}
+
+.first-v__wrap{
+    width:250px;
+    height: 230px;
+    display:flex;
+    justify-content:space-between;
+    // align-items:center;
+    flex-direction: column;
+    position: absolute;
+    top:50px;
+    transform:translate(30%,50%);
+    text-align: center;
+    font-size: 38px;
+
+
+    .catch{
+        // width:326px;
+        // height:38px;
+        // margin:48px 0;
+        // font-family:ヒラギノ明朝 Pro;
+        // //lighter効かない疑惑
+        // font-weight: lighter;
+    }
+    .need{
+        // width:390px;
+        // height:128px;
+        // //lighter効かない疑惑
+        // font-weight: lighter;
+        // font-family:Zapfino;
+        // margin: 20px 0;
+        // transform:translate(-10%) ;
+    
+    }
+}

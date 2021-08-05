@@ -1,0 +1,74 @@
+#concept{
+    background-color:#A193861F;
+    background:linear-gradient(180deg,#A193861F 0%,#A193861F 50%,#A1938689 50%,#A1938689 100%);
+}
+
+
+
+.title{
+    margin-bottom: 11px;
+    
+    .title--b{
+        display: flex;
+        font-size:18px;
+        font-family: Roboto;
+        color:#707070;
+        
+        &::after{
+            justify-content: center;
+            display:inline-block;
+            content:"";
+            width:9.9rem;
+            border-top:1px solid #707070;
+            margin:1rem 2rem  0;
+        }
+}
+
+}
+.concept-wrap{
+    // margin:100px;
+    position:absolute;
+    transform:translate(5%,30%);
+}
+
+.concept-item{
+    width:100%;
+}
+.concept__img{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height:413px;
+    img{
+        margin-right:5px;
+    }
+    
+}
+
+.concept-text{
+    font-size: 38px;
+    font-family:ヒラギノ明朝 Pro;
+    display: flex;
+    
+    .catch-wrap{
+        display: inline-block;
+        height:263px;
+        // width:680px;
+        
+        .concept-catch{
+            text-align: center;
+            vertical-align: middle;
+            height:100vh;
+            margin: 5rem 0 0 15rem;
+            // margin: 0 auto;
+        }
+    }
+
+    .concept-intro{
+        font-size:16px;
+        width:442px;
+        height:130px;
+        margin:3rem auto;
+    }
+}
+
